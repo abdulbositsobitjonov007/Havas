@@ -1,0 +1,31 @@
+.search-btn{
+    width: 96px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color:#E96023 ;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer-btn{
+    width: 176px;
+    height: 55px;
+    color: black;
+    background-color: #FADF00;
+    border: none;
+    outline: none;
+    border-radius: 27px;
+    cursor: pointer;
+        font-weight: 700;
+        font-size: 22px;
+      transition: 0.3s;
+}
+
+.footer-btn:hover{
+    transform: scale(1.1);
+    color: white;
+}

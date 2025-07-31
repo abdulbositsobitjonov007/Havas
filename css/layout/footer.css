@@ -1,0 +1,260 @@
+footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.footer{
+    background-image: url(../../assets/images/home/Frame\ 13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 122px;
+    padding-bottom: 102px;
+    width: 100%;
+}
+
+.footer-email-address{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-title{
+    
+        font-weight: 800;
+        font-size: 30px;
+       
+        vertical-align: middle;
+        text-shadow: 20px 15px 10px #FADF00;
+        padding-bottom: 100px;
+}
+
+.call-us{
+   
+        font-weight: 400;
+        font-size: 24px;
+       padding-bottom: 20px;
+        vertical-align: middle;
+}
+
+.tel p{
+    
+        font-weight: 400;
+        font-size: 24px;
+        
+        vertical-align: middle;
+
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.footer-input label{
+   
+        font-weight: 400;
+        font-size: 24px;
+      padding-bottom: 18px;
+        vertical-align: middle;
+}
+
+.footer-input{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-email{
+    width: 675px;
+    height: 51px;
+    border-radius: 7px;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 30px;
+  padding-left: 30px;
+        font-weight: 400;
+        font-size: 24px;
+        
+}
+
+
+.footer-comment{
+    width: 675px;
+        height: 149px;
+       
+            font-weight: 400;
+            font-size: 24px;
+            padding-left: 30px;
+            padding-bottom: 100px;
+        top: 466px;
+        left: 260px;
+        border-radius: 7px;
+        border: 1px solid #DBDBDB;
+        margin-bottom: 25px;
+}
+
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.footer-menu-section{
+   
+        font-weight: 700;
+        font-size: 20px;
+       
+}
+
+.sub-footer ul{
+    line-height: 30px;
+}
+
+.sub-footer ul li a{
+    color: #8D8D8D;
+        font-weight: 400;
+        font-size: 20px;
+      
+}
+
+.footer-hr{
+    margin-top: 38px;
+    margin-bottom: 27px;
+}
+
+.finisher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 29px;
+}
+
+@media (max-width:1438px) {
+    .map{
+        width: 584px;
+        height: 300px;
+    }
+}
+
+@media (max-width:1325px) {
+    .map {
+        width: 520px;
+        height: 300px;
+    }
+
+    .footer-email , .footer-comment{
+        width: 100% !important;
+        width: 610px !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .map {
+        width: 470px;
+        height: 290px;
+    }
+}
+
+@media (max-width:1140px) {
+    .footer-email , .footer-comment {
+            width: 100% !important;
+            width: 540px !important;
+        }
+}
+
+@media (max-width:1080px) {
+
+    .footer-email,
+    .footer-comment {
+        width: 100% !important;
+        width: 490px !important;
+    }
+}
+
+@media (max-width:1005px) {
+
+    .footer-email,
+    .footer-comment {
+        width: 100% !important;
+        width: 430px !important;
+    }
+
+    .map{
+        width: 370px;
+        height: 290px;
+    }
+
+}
+
+@media (max-width:853px) {
+
+    .footer-email,
+    .footer-comment {
+        width: 100% !important;
+        width: 360px !important;
+    }
+}
+
+@media (max-width:774px) {
+    .map {
+            width: 300px;
+            height: 290px;
+        }
+    
+}
+
+@media (max-width:705px) {
+    .footer-email-address{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+        .footer-email,
+        .footer-comment {
+            width: 100% !important;
+            width: 586px !important;
+        }
+
+                .map {
+                    width: 580px;
+                    height: 400px;   }
+
+}
+
+@media (max-width:627px) {
+    .map {
+        width: 500px;
+        height: 400px;
+    }
+
+        .footer-email,
+        .footer-comment {
+            width: 100% !important;
+            width: 500px !important;
+        }
+
+        
+
+}
+
+@media (max-width:563px) {
+    .map {
+        width: 400px;
+        height: 400px;
+    }
+
+    .footer-email,
+    .footer-comment {
+        width: 100% !important;
+        width: 400px !important;
+    }
+
+    .sub-footer{
+        display: grid;
+        grid-template-columns: repeat(2 , auto);
+    }
+
+}
