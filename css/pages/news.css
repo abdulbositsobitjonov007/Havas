@@ -1,0 +1,251 @@
+#begin {
+    margin-top: 255px;
+}
+
+.news {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.news-first__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("blob:https://www.figma.com/19876b46-4d25-4b88-8550-0313b7621902");
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 34px;
+}
+
+@media (max-width:1280px) {
+    .news-first__cards {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .begin-img {
+        order: 1;
+    }
+
+    .text {
+        order: 2;
+    }
+
+    .finish-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width:895px) {
+    .card-1__01 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mini_car-1__01 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.text {
+
+    flex-wrap: wrap;
+    margin-top: 130px;
+
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 140%;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    vertical-align: middle;
+    margin-top: 37px;
+}
+
+.date {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-top: 138px;
+    margin-bottom: 82px;
+}
+
+#finish {
+    padding-top: 101px;
+}
+
+.title-news {
+    font-weight: 800;
+    font-size: 30px;
+    vertical-align: middle;
+    text-shadow: 20px 15px 10px #FADF00;
+    padding-bottom: 100px;
+}
+
+.finish-cards {
+    display: flex !important;
+    align-items: first baseline;
+    justify-content: space-between;
+    margin-top: 43px;
+    gap: 64px !important;
+
+}
+
+.card-1__link {
+    gap: 92px;
+    display: flex;
+    padding-bottom: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 62px;
+}
+
+.subtitle-a {
+    color: black;
+}
+
+.card-1__link a:hover {
+    text-decoration: underline solid black;
+    transition: 0.5s;
+}
+
+.car-2__title {
+    color: white;
+    background-color: #E96023;
+    align-items: center;
+    padding-right: 395px;
+    padding-left: 23px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    vertical-align: middle;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+
+}
+
+.grey-p {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-top: 17px;
+}
+
+.finish-text {
+    padding-left: 23px;
+}
+
+.car-2__mini-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    vertical-align: middle;
+    margin-top: 18px;
+}
+
+.car-2__mini-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    vertical-align: middle;
+    margin-top: 31px;
+}
+
+.car-2__mini-subtitle2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    vertical-align: middle;
+    margin-top: 31px;
+    margin-bottom: 22px;
+}
+
+.grey-p_2 {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-top: 43px;
+}
+
+.grey-p_3 {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.card-1__01 {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.mini_car-1__01-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    vertical-align: middle;
+    margin-top: 23px;
+}
+
+.mini_car-1__01-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    vertical-align: middle;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.mini_car-1__01-link {
+    color: #E96023;
+    text-decoration: underline solid #E96023;
+    font-size: 18px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.numbers p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 2px solid #E96023;
+    color: #E96023;
+    border-radius: 5px;
+}
+
+.numbers {
+    display: flex;
+    gap: 14px;
+    margin-top: 160px;
+}
+
+.numbers p:hover {
+    border-color: green;
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
