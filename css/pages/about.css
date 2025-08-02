@@ -1,0 +1,82 @@
+#hero{
+    padding-top: 254px;
+    gap: 375px;
+}
+.hero-cards{
+    display: flex;
+}
+
+.hero-card1 h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 121px;
+   
+    
+}
+.hero-card1 h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 87px;
+}
+.hero-card1 p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero-card1{
+    margin-right: 105px;
+}
+.hero1-cards{
+    display: flex;
+    gap: 85px;
+}
+.hero1-card img{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 58px;
+}
+.hero1-card p{
+    font-size: 24px;
+    font-weight: 400;
+}
+#hero1{
+    margin-top: 91px;
+}
+#hero2{
+    margin-top: 76px;
+}
+.hero3-card1 h1{
+    font-size: 44px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.hero3-card2 p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+}
+#hero3{
+    margin-top: 87px;
+}
+.hero3-cards{
+    display: flex;
+}
+
+
+.hero3-card1 p{
+    font-size: 24px;
+    margin-right: 91px;
+}
+.hero2-cards1{
+    display: flex;
+    margin-top: 14px;
+}
+
+.hero2-card1{
+padding-right: 10px;
+}
+.hero3-card2 img{
+    padding-bottom: 15px;
+}
+.hero3-card2 p{
+    padding-bottom: 15px;
+}
