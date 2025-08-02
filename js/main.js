@@ -1,15 +1,3 @@
-const product = document.getElementById("product")
-const product2 = document.getElementById("product2")
-const product3 = document.getElementById("product3")
-const maxsulot = document.getElementById("maxsulot")
-const maxsulot2 = document.getElementById("maxsulot2")
-const maxsulot3 = document.getElementById("maxsulot3")
-const novinki = document.getElementById("novinki")
-const aksiya = document.getElementById("aksiya")
-const vse = document.getElementById("vse")
-const hammasi = document.getElementById("hammasi");
-const hammasi2 = document.getElementById("hammasi2")
-const hammasi3 = document.getElementById("hammasi3")
 
 
 $(document).ready(function () {
